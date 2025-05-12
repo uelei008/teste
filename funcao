@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+      somavalores(5,7)
+    
+  }
+  funcao somavalores(inteiro x, inteiro y){
+    inteiro resultado=x+y
+    escreva(resultado)
+  }
+}
