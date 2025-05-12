@@ -1,0 +1,15 @@
+programa {
+  cadeia nome, sobrenome
+  funcao inicio() {
+    escreva("digite seu nome: ")
+    leia(nome)
+    escreva("digite seu sobrenome: ")
+    leia(sobrenome)
+    darBoasVindas()
+
+    }
+
+  funcao darBoasVindas(){
+    escreva("Seja bem-vindo, ",nome, " ", sobrenome)
+  }
+}
