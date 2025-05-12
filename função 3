@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    somavalores(1,1)
+    somavalores(5,9)
+    somavalores(81,54)
+  }
+  funcao somavalores(inteiro x, inteiro y){
+    inteiro resultado = x + y
+    escreva(x, " + ", y, " = ", resultado, "\n")
+  }
+}
