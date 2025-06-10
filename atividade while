@@ -1,0 +1,6 @@
+let confimar = true
+while (confimar) {
+    num = Number(prompt("digite um numero"))
+    alert("A multiplicação de "+ num + "X 3 =" + num*3)
+    confimar = prompt("deseja continuar?")
+}
