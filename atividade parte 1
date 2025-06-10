@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="teste.js"></script>
+</head>
+<body>
+    <button onclick=" EscolhesCidade()"> EscolhesCidade</button>
+    <button onclick="adicionarFinal()">adicionarFinal</button>
+    <button onclick="removerFinal()">removerFinal</button>
+</body>
+</html>
