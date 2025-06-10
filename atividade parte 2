@@ -1,0 +1,19 @@
+const cidades = ["palhoça","são josé","balneario"]
+
+function adicionarFinal() {
+    novaCidade = prompt("Digite uma cidade")
+    // PUSH adicionar no final do array
+    cidades.push(novaCidade)
+    console.log(cidades)
+}
+function removerFinal() {
+    novaCidade = prompt("Digite uma cidade")
+    // remover no final
+    cidades.pop(novaCidade)
+    console.log(cidades)
+}
+function EscolhesCidade(){
+    posição = Number(prompt("Escolha um elemento do array"))
+    alert(cidades[posição])
+
+}
