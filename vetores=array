@@ -1,0 +1,3 @@
+const cidades = ["palhoça","são josé","balneario"]
+posição = Number(prompt("Escolha um elemento do array"))
+alert(cidades[posição])
